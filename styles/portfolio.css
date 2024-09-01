@@ -6,12 +6,15 @@ nav{
 /* nav related styles */
 nav{
     justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
 }
 .text-primary{
     color: #FD6E0A;}
     nav > ul{
         display: flex;
         align-items: center;
+
     }
     .btn-primary{
         border-radius: 5px;
@@ -29,4 +32,16 @@ nav{
     nav a{
         text-decoration: none;
         color: #474747;
+    }
+    /* header related styles */
+    .header{
+        background-color: #FFF8F3;
+    }
+    .banner{
+        padding: 30px 30px 30px 150px;
+        display: flex;
+        align-items: center;
+    }
+    .banner .profile-pic{
+        width: 500px;
     }
